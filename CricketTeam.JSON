@@ -1,0 +1,24 @@
+{
+    "Name":"Team India",
+    "Country": "India",
+    "TeamRanking": "1",
+    "WorldCupsWon": "2",
+    "Captain": "Rohit Sharma",
+    "ViceCaptain": "KL Rahul",
+    "Players": [
+        {"firstName":"Rohit","lastName":"Sharma","Age":"28","TopSkill":"Batsman","BattingPosition": "1","maxRuns":"105" }, 
+        {"firstName":"KL","lastName":"Rahul","Age":"27","TopSkill":"Batsman","BattingPosition": "2","maxRuns":"98"  },
+        {"firstName":"Dinesh","lastName":"Karthik","Age":"23","TopSkill":"All-rounder","BattingPosition": "3","maxRuns":"113"  },
+        {"firstName":"Rishabh","lastName":"Pant","Age":"29","TopSkill":"All-rounder","BattingPosition": "4","maxRuns":"102"  }, 
+        {"firstName":"Suryakumar","lastName":"Yadav","Age":"24","TopSkill":"Batsman","BattingPosition": "5","maxRuns":"85"  },
+        {"firstName":"Virat","lastName":"Kohli","Age":"26","TopSkill":"Wicket-Keeper","BattingPosition": "6","maxRuns":"78" }, 
+        {"firstName":"Deepak","lastName":"Hooda","Age":"28","TopSkill":"All-rounder","BattingPosition": "7","maxRuns":"90"  },
+        {"firstName":"Hardik","lastName":"Pandya","Age":"25","TopSkill":"Bowler","BattingPosition": "8","maxRuns":"60"  },
+        {"firstName":"Ravi","lastName":"Ashwin","Age":"22","TopSkill":"Spinner","BattingPosition": "9","maxRuns":"40"  }, 
+        {"firstName":"Ravindra","lastName":"Jadeja","Age":"24","TopSkill":"Spinner","BattingPosition": "10","maxRuns":"50"  },
+        {"firstName":"Arshdeep","lastName":"Singh","Age":"29","TopSkill":"Bowler","BattingPosition": "11","maxRuns":"30" }, 
+        {"firstName":"Avesh","lastName":"Khan","Age":"27","TopSkill":"Spinner","BattingPosition": "Reserve","maxRuns":"20"  },
+        {"firstName":"Bhuvi","lastName":"Kumar","Age":"26","TopSkill":"Bowler","BattingPosition": "Reserve","maxRuns":"10"  },
+        {"firstName":"Ravi","lastName":"Bishnoi","Age":"25","TopSkill":"Batsman","BattingPosition": "Reserve","maxRuns":"29"  }, 
+        {"firstName":"Yuzvendra","lastName":"Chahal","Age":"24","TopSkill":"Bowler","BattingPosition": "Reserve","maxRuns":"12"  }]
+}

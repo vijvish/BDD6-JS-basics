@@ -1,0 +1,13 @@
+{
+    "States": [
+        {"state":"New Jersey","Capital":"Trenton","geoLocation":"Mid-Atlantic","Attraction":"Six Flags Theme Park","Governor":"Phil Murphy","stateAnimal":"Horse","stateBird": "American Goldfinch","famousPeople":"Thomas Edison"}, 
+        {"state":"New York","Capital":"Albany","geoLocation":"North-east","Attraction":"Statue of Liberty","Governor":"Kathy Hochul","stateAnimal":"Beavers","stateBird": "Eastern Bluebird","famousPeople":"Theodore Roosevelt"},
+        {"state":"Arizona","Capital":"Phoenix","geoLocation":"South-west","Attraction":"Grand Canyon","Governor":"Doug Dusey","stateAnimal":"Ringtail","stateBird": "Cactus Wren","famousPeople":"Steve Allen"},
+        {"state":"Texas","Capital":"Austin","geoLocation":"South-central","Attraction":"NASA Johnson Space Center","Governor":"Greg Abbott","stateAnimal":"Nine-banded Armadillo","stateBird": "Northern Mockingbird","famousPeople":"Steve Fuller Austin"}, 
+        {"state":"Virginia","Capital":"Richmond","geoLocation":"East","Attraction":"Shenandoah National Park","Governor":"Glenn Youngkin","stateAnimal":"Virginia big-eared bat","stateBird": "Cardinal","famousPeople":"Jerry West Cheylan"},
+        {"state":"California","Capital":"Sacramento","geoLocation":"South-west","Attraction":"Yosemite National Park","Governor":"Gavin Newsom","stateAnimal":"California Grizzly Bear","stateBird": "California Quail","famousPeople":"Dwayne Johnson"}, 
+        {"state":"Tennessee","Capital":"Nashville","geoLocation":"South-east","Attraction":"Smoky Mountains","Governor":"Bill Lee","stateAnimal":"Raccoon","stateBird": "Northern Mockingbird","famousPeople":"Elvis Presley"},
+        {"state":"South Carolina","Capital":"Columbia","geoLocation":"Coastal South-east","Attraction":"Myrtle Beach","Governor":"Henry McMaster","stateAnimal":"White tailed deer","stateBird": "Carolina Wren","famousPeople":"Mary McLeod Bethune"},
+        {"state":"Colorado","Capital":"Denver","geoLocation":"West-Central","Attraction":"Rocky Mountain State Park","Governor":"Jared Polis","stateAnimal":"Rocky Mountain Big horn sheep","stateBird": "Lark Bunting","famousPeople":"Charles Bresnahan Greeley"}, 
+        {"state":"Florida","Capital":"Tallahassee","geoLocation":"South-east","Attraction":"Disney Park","Governor":"Ron DeSantis","stateAnimal":"Florida Panther","stateBird": "Northern Mockingbird","famousPeople":"Billy Powell - Osceola"}]
+}
