@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StudentPortal_style.css">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1 id="Form-header">Student Portal</h1>
+    <br>
+        <div class="navlist" id="navlist_home"><h4><a href="">Home</a></h4></div>
+        <div class="navlist" id="navlist_Register"><h4><a href="">Register</a></h4></div>
+        <div class="navlist" id="navlist_Courses"><h4><a href="">Courses</a></h4></div>
+        <div class="navlist" id="navlist_Books"><h4><a href="">Books</a></h4></div>
+        <div class="navlist" id="navlist_Payments"><h4><a href="">Payments</a></h4></div>
+        <div class="navlist" id="navlist_Connect"><h4><a href="">Connect</a></h4></div>
+        <div class="navlist" id="navlist_resourcelinks"><h4><a href="">ResourceLinks</a></h4></div>
+    <form name="myForm" id="studentRegister" action="" onsubmit="return validateform()">
+    <div id="data-boxes-styling">
+        <div id="user-name">
+            <label>User name</label>
+            <input type="text" id="Username" name="uname" placeholder="Enter a username">
+          </div>
+          <div id="password">
+             <label>Password&nbsp;&nbsp;</label>
+             <input type="password" id="pwd" pattern="(?=.*\d)(?=.*(a-z))(?=.*(A-Z)).{8,}" required>
+          </div>
+           <div id="button-style">
+            <input type="button" onclick="displayDetails()"><br>
+        </div>
+       </div> 
+        <br>
+        <br>
+       
+        <div id="student-data-link">
+            <p id="Error">Error</p>
+        <!--    <h3><a href="Student_Data.html">Click here to enter Student Data</a></h3>-->
+        <p id="Error"></p>
+        </div>
+    </form>
+    <br>
+   
+    <script>
+        function displayDetails(){
+        var userName=document.getElementById("Username").value;
+        var userPwd=document.getElementById("pwd").value;
+        if(userName == ""){
+            document.getElementById("Error").textContent  = "Name must be filled out";
+        }else {
+        document.getElementById("displayUser").value = userName;}
+        document.getElementById("displayPwd").value = userPwd
+        }
+        
+       
+    </script>
+    <div id="displayinfo" style="display: flex; float: left; 
+    border 2px solid black; color: green;margin-top: 50px;padding:5px;">
+    
+        UserName <input type="text" id="displayUser" value="" style="display:block;"><br>
+        Password <input type="text" id="displayPwd" value=""><br></div>
+</body>
+</html>
+
+    
+    

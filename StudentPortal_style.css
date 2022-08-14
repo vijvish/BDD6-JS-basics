@@ -1,0 +1,113 @@
+body {
+    background-color: pink;
+}
+
+#Form-header {
+    border:2px solid black; 
+    margin: 50px; 
+    text-align:center; 
+    background-color: rgb(157, 231, 157);
+}
+
+.navlist {
+      float:left;
+      color:purple; 
+      width:200px;
+      text-align:center;
+}
+.Portal_info {
+    border:2px solid yellow; 
+    float:left; 
+    margin-left:50px; 
+    margin-top:50px; 
+    width: 300px; 
+    padding:10px; 
+    background-color:blue;
+    color:yellow;
+}
+.Portal_info2{
+    border:2px solid black; 
+    float:left; 
+    margin-left:100px;
+    text-align: center; 
+    margin-top:50px; 
+    width: 500px; 
+    padding:10px; 
+    background-color:red;
+    color:black
+}
+#portal_img1 {
+    border:2px solid black; 
+    float: left; 
+    margin-left:250px; 
+    margin-top:50px; 
+    width: 300px;
+}
+#portal_img2{
+    border:2px solid black; 
+    float: left; 
+    margin: left 2px; 
+    margin-top:50px; 
+    width: 300px;" 
+}
+#portal_img3 {
+    border:2px solid black; 
+    float: left; 
+    margin: right 30px; 
+    margin-top:50px; 
+    width: 300px;
+}
+#h5_portal {
+    color: blue;
+    border:2px solid black; 
+    float: left;
+}
+#data-boxes-styling {
+    border:2px solid black; 
+    float:left; 
+    margin-left:600px; 
+    margin-top:100px; 
+    width: 300px; 
+    padding:10px; 
+    color:black
+}
+#button-style {
+    border:1px; 
+    padding: 5px; 
+    background-color: blue; 
+    text-align:center;
+}
+#student-data-link{
+    border: solid 5px; 
+    padding: 5px; 
+    float:left; 
+    margin-top: 50px; 
+    margin-left: 600px; 
+    width: 300px;
+    background-color: yellow; 
+    color:green;
+    text-align:center
+}
+#Home_Page_Link {
+    margin-left: auto; 
+    padding: 5px; 
+    float:right; 
+    margin-top: 200px; 
+    width: 300px; 
+    color:red;
+    text-align:center;
+}
+.Student_Data_content{
+    float:left; 
+    border: 1px solid black; 
+    margin:10px; color: blue; 
+    background-color: rgb(132, 186, 132); 
+}
+#Stdata-boxes-styling {
+    border:2px solid black; 
+    float:left; 
+    margin: auto; 
+    margin-left: 50px;
+    padding:10px; 
+    color:black;
+}
