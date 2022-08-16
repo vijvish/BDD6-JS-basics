@@ -1,0 +1,45 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+<script>
+
+    $(function() {
+    //var dispJSONDatatoHTMLTable = [];
+     $.getJSON('dispJSONDatatoHTMLTable.json', function(data) {
+       $.each(data.fruits, function(i, f) {
+           let date = Date(f.fruitopenedDate);
+            let y = date.substring(0,15);
+          var tblRow = "<tr>" + "<td>" + "<img width=100; height=75; src=" + f.fruitImage + "</td>" +
+           "<td>" + f.fruitName + "</td>" + "<td>" + f.fruitDescription + "</td>" + "<td>" + y + "</td>" + "<td>" + f.fruitCode + "</td>" + "</tr>"
+           $(tblRow).appendTo("#userdata tbody");
+    //    console.log(document.getElementById("userdata").innerHTML);
+     });
+   });
+   
+
+});
+</script>
+</head>
+
+<body>
+
+<div class="wrapper">
+<div class="profile">
+   <table id= "userdata" border="2">
+    <thead>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Opened Date</th>
+          <th>Code</th>
+      </thead>
+      <tbody>
+
+      </tbody>
+   </table>
+
+</div>
+</div>
+
+</body>
+</html>

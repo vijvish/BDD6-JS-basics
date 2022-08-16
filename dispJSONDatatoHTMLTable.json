@@ -1,0 +1,38 @@
+{
+"fruits": [
+    {
+        "fruitImage":"https://www.bing.com/th?id=OIP.SEMRDAqH9pGGt62J5kEA7gHaFl&w=287&h=217&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2",
+        "fruitName":"apple",
+        "fruitDescription": "nutritious, good for weight loss, lower risk of diabetes",
+        "openedDate": "new Date()",
+        "fruitCode": 1
+    },
+    {
+        "fruitImage": "https://www.bing.com/th?id=OIP.rKZh0QsVkdcfRwKzhYBHmQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2",
+        "fruitName":"Strawberry",
+        "fruitDescription": "enhance cognitive function, reduce hypertension,can prevent allergies",
+        "openedDate": "new Date()",
+        "fruitCode": 2
+    },
+    {
+        "fruitImage": "https://www.bing.com/th?id=OIP.L1KZ9kz1QJoYJ089IYH4jQHaFV&w=294&h=212&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2",
+        "fruitName":"orange",
+        "fruitDescription": "heart health, kidney stone prevention,anemia prevention",
+        "openedDate": "new Date()",
+        "fruitCode": 3
+    },
+    {
+        "fruitImage": "https://www.bing.com/th?id=OIP.5yAgpRkItKRn0WW10iECIgHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2",
+        "fruitName":"banana",
+        "fruitDescription": "improves digestive health, contains many nutrients, anti-oxidants, helps you feel full",
+        "openedDate": "new Date()",
+        "fruitCode": 4
+    },
+    {
+        "fruitImage": "https://www.bing.com/th?id=OIP.O2rdImkpSwWRs0qw1KpM_AHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2",
+        "fruitName":"kiwi",
+        "fruitDescription": "anti-inflammatory, aids better sleep,gives healthy skin",
+        "openedDate": "new Date()",
+        "fruitCode": 5
+    }]
+}
