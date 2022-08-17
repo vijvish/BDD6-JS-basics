@@ -102,6 +102,109 @@ for (let i=0; i<myObj.States.length;i++){
     console.log('');
 } ;
 console.log('_______________________________________________________________');
+//8. Updated!!! Since i did this wrong - didnt realise the answer i was doing was opposite Create a json file that has a list of atleast 10 states of USA with atleast 8 properties.
+console.log('8. To Create JSON file to list any 10 states of USA with atleast 8 properties');
+console.log('');
+List of states = {
+    
+         [
+            {"state1":"New Jersey",
+            "Capital":"Trenton",
+            "geoLocation":"Mid-Atlantic",
+            "Attraction":"Six Flags Theme Park",
+            "Governor":"Phil Murphy",
+            "stateAnimal":"Horse",
+            "stateBird": "American Goldfinch",
+            "famousPeople":"Thomas Edison"}, 
+            {"state2":"New York",
+            "Capital":"Albany",
+            "geoLocation":"North-east",
+            "Attraction":"Statue of Liberty",
+            "Governor":"Kathy Hochul",
+            "stateAnimal":"Beavers",
+            "stateBird": "Eastern Bluebird",
+            "famousPeople":"Theodore Roosevelt"},
+            {"state3":"Arizona",
+            "Capital":"Phoenix",
+            "geoLocation":"South-west",
+            "Attraction":"Grand Canyon",
+            "Governor":"Doug Dusey",
+            "stateAnimal":"Ringtail",
+            "stateBird": "Cactus Wren",
+            "famousPeople":"Steve Allen"},
+            {"state4":"Texas",
+            "Capital":"Austin",
+            "geoLocation":"South-central",
+            "Attraction":"NASA Johnson Space Center",
+            "Governor":"Greg Abbott",
+            "stateAnimal":"Nine-banded Armadillo",
+            "stateBird": "Northern Mockingbird",
+            "famousPeople":"Steve Fuller Austin"}, 
+            {"state5":"Virginia",
+            "Capital":"Richmond",
+            "geoLocation":"East",
+            "Attraction":"Shenandoah National Park",
+            "Governor":"Glenn Youngkin",
+            "stateAnimal":"Virginia big-eared bat",
+            "stateBird": "Cardinal",
+            "famousPeople":"Jerry West Cheylan"},
+            {"state6":"California",
+            "Capital":"Sacramento",
+            "geoLocation":"South-west",
+            "Attraction":"Yosemite National Park",
+            "Governor":"Gavin Newsom",
+            "stateAnimal":"California Grizzly Bear",
+            "stateBird": "California Quail",
+            "famousPeople":"Dwayne Johnson"}, 
+            {"state7":"Tennessee",
+            "Capital":"Nashville",
+            "geoLocation":"South-east",
+            "Attraction":"Smoky Mountains",
+            "Governor":"Bill Lee",
+            "stateAnimal":"Raccoon",
+            "stateBird": "Northern Mockingbird",
+            "famousPeople":"Elvis Presley"},
+            {"state8":"South Carolina",
+            "Capital":"Columbia",
+            "geoLocation":"Coastal South-east",
+            "Attraction":"Myrtle Beach",
+            "Governor":"Henry McMaster",
+            "stateAnimal":"White tailed deer",
+            "stateBird": "Carolina Wren",
+            "famousPeople":"Mary McLeod Bethune"},
+            {"state9":"Colorado",
+            "Capital":"Denver",
+            "geoLocation":"West-Central",
+            "Attraction":"Rocky Mountain State Park"
+            "Governor":"Jared Polis",
+            "stateAnimal":"Rocky Mountain Big horn sheep",
+            "stateBird": "Lark Bunting",
+            "famousPeople":"Charles Bresnahan Greeley"}, 
+            {"state10":"Florida",
+            "Capital":"Tallahassee",
+            "geoLocation":"South-east",
+            "Attraction":"Disney Park",
+            "Governor":"Ron DeSantis",
+            "stateAnimal":"Florida Panther",
+            "stateBird": "Northern Mockingbird",
+            "famousPeople":"Billy Powell - Osceola"}]
+         ]
+    
+}
+var myObj = require('./listStatesOfUSA');
+for (let i=0; i<myObj.States.length;i++){
+    console.log('Details of State '+ (i+1) +' : ');
+    console.log('Name of the State: ' + myObj.States[i].state);
+    console.log('Capital City: ' + myObj.States[i].Capital);
+    console.log('Location: ' + myObj.States[i].geoLocation);
+    console.log('Famous Attraction: ' + myObj.States[i].Attraction);
+    console.log('Governor of State: ' + myObj.States[i].Governor);
+    console.log('State Animal: ' + myObj.States[i].stateAnimal);
+    console.log('State Bird: ' + myObj.States[i].stateBird);
+    console.log('Famous Personality from this state: ' + myObj.States[i].famousPeople);
+    console.log('');
+} ;
+console.log('_______________________________________________________________');
 
 
 
